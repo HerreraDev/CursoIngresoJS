@@ -3,7 +3,9 @@ function mostrar()
 //tomo la edad  
 var laHora = document.getElementById('hora').value;
 
-//alert (laHora);
+if (laHora >= "07:00" && laHora <= "11:00"){
+    alert("Es de mañana");
+}
 	
 	
 
