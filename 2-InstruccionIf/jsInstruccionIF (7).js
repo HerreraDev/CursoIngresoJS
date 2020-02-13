@@ -6,7 +6,7 @@ var estadoCivil = document.getElementById("estadoCivil").value;
 edad = parseInt(edad);
 //18 y civil que no sea soltero
 
-if(edad == 18 && estadoCivil == "Casado" || estadoCivil == "Divorciado"){
+if(edad < 18 && estadoCivil != "Soltero"){
  alert("Es muy pequeño para NO ser soltero");
 }
 
