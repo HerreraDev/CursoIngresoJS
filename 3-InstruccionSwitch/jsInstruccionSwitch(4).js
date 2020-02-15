@@ -6,67 +6,23 @@ var mesDelAño = document.getElementById('mes').value;
 //alert (mesDelAño);
 switch(mesDelAño){
     case "Enero":
-    {
-        alert("31 días.");
-       break;
-        }   
-    case "Febrero":
-    {
-        alert("29 días.");
-         break;
-        }
     case "Marzo":
-    {
-     alert("31 días.");
-      break;
-      }
-    case "Abril":
-    {
-        alert("30 días.");
-         break;
-        }
     case "Mayo":
-    {
-        alert("31 días.");
-         break;
-         }
-    case "Junio":
-     {
-        alert("30 días.");
-        break;
-         }
-
     case "Julio":
-        {
-        alert("31 días.");
-        break;
-        }
     case "Agosto":
-         {
-        alert("31 días.");
-        break;
-        }
-    case "Septiembre":
-        {
-        alert("30 días.");
-        break;
-    }
     case "Octubre":
-         {
+    case "Diciembre":
         alert("31 días.");
-        break;
-        }
+    break;
+    case "Febrero":
+        alert("29 días.");
+    break;
+    case "Abril": 
+    case "Junio":
+    case "Septiembre":
     case "Noviembre":
-         {
         alert("30 días.");
-        break;
-        }
-        case "Diciembre":
-         {
-        alert("31 días.");
-        break;
-        }
-
+    break;
     
     }
 	
