@@ -1,11 +1,10 @@
 function mostrar()
 {
-var contador;
-contador=1;
-while(contador<=10)
-{
-console.log("Número :"+contador);
-contador=contador+1;
+var numero = 1;
+while(numero < 11){
+    alert(numero);
+    numero++
 }
+
 
 }//FIN DE LA FUNCIÓN
