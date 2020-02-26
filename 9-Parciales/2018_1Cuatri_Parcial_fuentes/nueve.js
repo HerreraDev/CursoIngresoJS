@@ -17,11 +17,16 @@ function mostrar()
     do{
         marca = prompt("Ingrese la marca del producto: ");
         peso = parseInt(prompt("Ingrese el peso del producto: "));
-        while(peso < 1 || peso > 100){
+        while(peso < 1 || peso > 100)
+        {
             peso = parseInt(prompt("Ingrese el peso del producto: "));
         }
         acumuladorPeso = acumuladorPeso + peso;
         temp = parseInt(prompt("Ingrese la temperatura: "));
+        while(temp < (-30) || temp > 30)
+        {
+            temp = parseInt(prompt("Ingrese la temperatura: "));
+        }
         if (contPeso == 0)
         {
             marcaMax = marca;
