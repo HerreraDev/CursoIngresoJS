@@ -1,6 +1,6 @@
 function mostrar()
 {
-
+	// mal hecho
 	/*var contador=0;
 	// declarar variables
 	
@@ -27,6 +27,7 @@ function mostrar()
 	}
 	document.getElementById("maximo").value = acumuladorMax;
 	document.getElementById("minimo").value = acumuladorMin;*/
+	////////////////////////////////////////////////////////////////
 
 	//ASI ES CON DO WHILE//
 	/*var contador = 0;
@@ -55,7 +56,8 @@ function mostrar()
 	document.getElementById("maximo").value = maximo;
 	document.getElementById("minimo").value = minimo;*/
 
-
+	////////////////////////////////////////////////////////////////
+	
 	//ASI ES CON WHILE
 	var contador = 0;
 	var numero = 0;
