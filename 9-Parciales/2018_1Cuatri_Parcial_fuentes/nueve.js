@@ -11,10 +11,8 @@ function mostrar()
     var contPeso = 0;
     var pesoMin = 0;
     var marcaMax;
-
-
-    
-    do{
+    do
+    {
         marca = prompt("Ingrese la marca del producto: ");
         peso = parseInt(prompt("Ingrese el peso del producto: "));
         while(peso < 1 || peso > 100)
@@ -45,7 +43,6 @@ function mostrar()
 			pesoMin = peso;
 			}
 		}
-
         if(temp % 2 == 0)
         {
             tempPares++;
@@ -54,12 +51,9 @@ function mostrar()
         {
             cantMenorCeroGrados++;
         }
-
-    
     contPeso++;    
     respuesta = prompt("Desea continuar?");
     }while(respuesta=="si");
-
     document.write("<li>Cantidad de temperaturas pares: " + tempPares + "<br></br>" + 
     "<li>Cantidad de productos conservados a menos de 0 grados: " + cantMenorCeroGrados + "<br></br>" +
     "<li>Promedio de peso de los productos: " + (acumuladorPeso/contPeso) + "<br></br>" +
